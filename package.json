@@ -1,0 +1,22 @@
+{
+  "name": "first-gatsby-site-tutorial",
+  "version": "1.0.0",
+  "private": true,
+  "description": "first-gatsby-site-tutorial",
+  "author": "agudlc",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^4.14.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
