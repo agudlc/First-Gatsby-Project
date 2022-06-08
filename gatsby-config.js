@@ -3,8 +3,8 @@ require('dotenv').config();
 const strapiConfig = {
   apiURL: process.env.STRAPI_API_URL,
   accessToken: process.env.STRAPI_TOKEN,
-  collectionTypes: ['job', "blog", "project"],
-  singleTypes: ['about'],
+  collectionTypes: [ "job", "project"],
+  singleTypes: ["about"],
 };
 
 module.exports = {

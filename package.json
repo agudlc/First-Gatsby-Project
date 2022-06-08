@@ -12,7 +12,8 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "postinstall": "cd plugins/gatsby-source-cloud && npm i"
   },
   "dependencies": {
     "dotenv": "^16.0.1",
