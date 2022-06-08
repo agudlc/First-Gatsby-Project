@@ -20,6 +20,6 @@ module.exports = {
     {
       resolve: `gatsby-source-strapi`,
       options: strapiConfig,
-    },
+    }, `gatsby-plugin-gatsby-cloud`
   ],
 }
